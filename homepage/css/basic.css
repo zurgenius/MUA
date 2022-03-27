@@ -1,0 +1,77 @@
+@import "variables.css";
+
+/* Header */
+.header {
+  background-color: #292929;
+  margin-bottom: var(--m-lg);
+}
+.header_inner {
+  flex-direction: column;
+  gap: 5rem;
+  padding-block: 2rem;
+}
+
+.top-header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app-name {
+  width: 50%;
+  margin-left: 3px;
+  font-size: var(--fsize-md);
+}
+
+.nav-links {
+  width: 50%;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: end;
+}
+
+/* Footer */
+.footer {
+  background-color: #292929;
+  margin-top: var(--m-lg);
+  padding-block: 2.5rem;
+}
+
+.footer_inner,
+.social-media,
+.faq,
+.copyright {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.footer_inner {
+  justify-content: center;
+}
+
+.social-media {
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.5rem;
+  border-right: 1px solid white;
+}
+
+.social-media > a,
+.faq > a {
+  display: flex;
+  align-items: center;
+  transition: color 0.25s ease-in;
+}
+
+.social-media > a:hover,
+.faq > a:hover {
+  color: white;
+}
+
+.copyright {
+  margin-top: 2.5px;
+}
+
+.faq {
+  border-right: 1px solid white;
+  padding-right: 1.5rem;
+}

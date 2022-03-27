@@ -1,0 +1,83 @@
+/* Importing variables for colors,  etc */
+@import "variables.css";
+
+/* Importing basic styles for all pages */
+@import "basic.css";
+/* Importing font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+.low-header {
+  flex-direction: row;
+}
+
+.app-logo {
+  width: 33.3%;
+  justify-content: start;
+  align-items: center;
+}
+
+.app-logo-text {
+  font-weight: 700;
+  font-size: 10rem;
+  color: #c8ced0;
+}
+
+.about-project {
+  width: 66.6%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-head {
+  display: block;
+  text-align: center;
+}
+
+.about-project:hover {
+  color: white;
+}
+.nav-item {
+  font-size: var(--fsize-md);
+}
+
+.nav-item:hover {
+  color: var(--text-hover);
+}
+
+.section {
+  padding-block: var(--m-lg);
+  grid-template-columns: auto auto;
+  column-gap: 10rem;
+  row-gap: 5rem;
+}
+
+.project-tab {
+  background-color: var(--tsbcc);
+  border-radius: 5px;
+  padding: 5rem;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.project-info {
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.4s ease-in-out;
+}
+
+.project-tab:hover {
+  background-color: var(--tsbcc-hover);
+}
+
+.project-tab:hover .project-link {
+  color: white;
+}
+
+.project-name {
+  font-size: var(--fsize-xlg);
+}
+
+.project-desc {
+  font-size: var(--fsize-md);
+}
