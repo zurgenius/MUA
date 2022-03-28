@@ -28,12 +28,25 @@
   gap: 2rem;
   justify-content: end;
 }
+.nav-item {
+  font-size: var(--fsize-md);
+}
 
+.nav-item:hover {
+  color: var(--text-hover);
+}
+
+.nav-item >a:hover {
+  color: var(--text-hover);
+}
 /* Footer */
 .footer {
   background-color: #292929;
   margin-top: var(--m-lg);
   padding-block: 2.5rem;
+  position: static;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer_inner,

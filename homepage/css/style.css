@@ -7,8 +7,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
 .low-header {
+  padding: 1.6rem;
+  margin-top: 7rem ;
   flex-direction: row;
 }
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+/* .sticky + .low-header {
+  padding: 10.2rem;
+} */
 
 .app-logo {
   width: 33.3%;
@@ -36,13 +48,8 @@
 .about-project:hover {
   color: white;
 }
-.nav-item {
-  font-size: var(--fsize-md);
-}
 
-.nav-item:hover {
-  color: var(--text-hover);
-}
+
 
 .section {
   padding-block: var(--m-lg);
@@ -56,6 +63,7 @@
   border-radius: 5px;
   padding: 5rem;
   transition: background-color 0.4s ease-in-out;
+  /* box-shadow: 1.2rem 1.2em 0.7rem 1rem #2f3637; */
 }
 
 .project-info {
@@ -80,4 +88,8 @@
 
 .project-desc {
   font-size: var(--fsize-md);
+}
+
+.project-description > a {
+  color: white;
 }
