@@ -1,46 +1,59 @@
 @import "/homepage/css/variables.css";
 @import "/homepage/css/basic.css";
 
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
 h1 {
-    padding-bottom: 5rem;
-    padding-top: 2rem;
-    font-size: var(--fsize-xlg);
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  font-size: var(--fsize-xlg);
 }
 
 h2 {
-    padding-bottom: 3rem;
-    font-size: var(--fsize-md);
+  padding-bottom: 3rem;
+  font-size: var(--fsize-md);
 }
 
 form {
-    max-width: 100%;
-    margin: auto;
-    width: 40rem;
+  max-width: 100%;
+  margin: auto;
+  width: 40rem;
 }
 
 .input {
-    font-size: var(--fsize-md);
-    padding: 1rem 2rem;
-    display: block;
-    width: 100%;
-    color: white;
-    background-color: #677679;
+  font-size: var(--fsize-md);
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: #677679;
 }
 
 .input:focus {
-    outline: none;
+  outline: none;
 }
 
 .input::placeholder {
-    color: white;
+  color: white;
 }
 
 .footer {
-    position: fixed !important;
-    bottom: 0;
-    width: 100%;
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+}
+
+.todo-list {
+  width: 40rem;
+  margin: 5rem auto;
+}
+.todo-list > li {
+  background-color: #677679;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1rem;
 }
