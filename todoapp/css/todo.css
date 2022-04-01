@@ -32,6 +32,10 @@ form {
   background-color: #677679;
 }
 
+section {
+  margin-bottom: 10rem;
+}
+
 .input:focus {
   outline: none;
 }
@@ -49,6 +53,7 @@ form {
 .todo-list {
   width: 40rem;
   margin: 5rem auto;
+  user-select: none;
 }
 .todo-list > li {
   background-color: #677679;
