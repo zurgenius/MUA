@@ -17,6 +17,13 @@ h2 {
   font-size: var(--fsize-md);
 }
 
+p {
+  width: 30rem;
+  margin: auto;
+  font-size: var(--fsize-sm);
+  text-align: left;
+  margin-bottom: 5rem;
+}
 form {
   max-width: 100%;
   margin: auto;
@@ -54,6 +61,7 @@ section {
   width: 40rem;
   margin: 5rem auto;
   user-select: none;
+  cursor: pointer;
 }
 .todo-list > li {
   background-color: #677679;
@@ -91,3 +99,8 @@ li:hover .btn {
   /* display: block; */
   opacity: 1;
 }
+
+.over {
+  background-color: #424B4D !important;
+}
+
