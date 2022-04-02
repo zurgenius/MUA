@@ -63,6 +63,7 @@
   border-radius: 5px;
   padding: 5rem;
   transition: background-color 0.4s ease-in-out;
+  margin-bottom: 10rem;
   /* box-shadow: 1.2rem 1.2em 0.7rem 1rem #2f3637; */
 }
 

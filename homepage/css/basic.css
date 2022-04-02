@@ -44,9 +44,9 @@
   background-color: #292929;
   margin-top: var(--m-lg);
   padding-block: 2.5rem;
-  position: static;
-  width: 100%;
-  bottom: 0;
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_inner,

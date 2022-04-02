@@ -1,0 +1,144 @@
+@import "/homepage/css/basic.css";
+@import "/homepage/css/variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+* {
+    font-family: var(--ffam);
+}
+
+.header_inner {
+    padding-block: 2rem;
+}
+
+h1, h2 {
+    margin-block: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--fsize-xlg);
+}
+
+.card  {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.file-btn-container {
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   gap: 2rem;
+}
+
+.file-btn {
+    background-color: var(--sbcc);
+    font-size: var(--fsize-md);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    min-width: 10rem;
+    cursor: pointer;
+    height: 100%;
+}
+.file-btn1 {
+    background-color: var(--sbcc);
+    font-size: var(--fsize-md);
+    padding: 0.5rem;
+    border: none;
+    min-width: 10rem;
+    cursor: pointer;
+}
+
+.file-btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.control-btn {
+    width: 5rem;
+    height: 100%;
+}
+.editor-container {
+    display: flex;
+    justify-content: center;
+}
+.editor {
+    min-height: 30vh;
+    outline-color: var(--sbcc);
+    background-color: var(--tsbcc);
+    border-radius: 5px;
+    /* color: white; */
+    width: 135rem;
+    font-size: var(--fsize-md);
+    padding: 1rem;
+}
+
+.file-name {
+    min-width: 40rem;
+    font-size: var(--fsize-md);
+    border-radius:5px ;
+}
+
+.text-btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 11rem;
+}
+
+.text-btn {
+    background-color: var(--sbcc);
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--fsize-md);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.underlined {
+   text-decoration: underline; 
+}
+
+.italic {
+    font-style: italic;
+}
+
+.color {
+    outline: none;
+    border: none;
+}
+
+.editor:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 10rem;
+}
+
+.show {
+    display: block;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxDocs - Best Text Editor</title>
+    <link rel="stylesheet" href="maxdocs/css/maxdocs.css">
+    <script defer src="maxdocs/js/maxdocs.js"></script>
+    <!-- Connecting remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Connecting html2pdf js library for save to pdf feature -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <header class="header_inner d-flex container">
+            <nav class="top-header d-flex">
+                <span class="app-name">The Most Useful App</span>
+                <ul class="nav-links d-flex">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="section">
+        <h1>Max Docs</h1>
+        <h2>Best Text Editor On the Web</h2>
+        <div class="card container">
+            <div class="btn-container">
+                <div class="file-btn-container">
+                    <div class="dropdown">
+                    <button id="dropdown-btn"class="file-btn">File</button>
+                    <div id="dropdown-menu" class="dropdown-content">
+                        <button id="new-btn" class="file-btn1">New File</button>
+                        <button id="txt-btn" class="file-btn1">Save as TXT</button>
+                        <button id="pdf-btn" class="file-btn1">Save as PDF</button>
+                    </div>
+                    </div>
+                    <input class="file-name" type="text"  id="file-name" value="untitled">
+                </div>
+                <div class="text-btn-container">
+                    <button class="bold text-btn control-btn" id="bold-btn">B</button>
+                    <button class="underlined text-btn control-btn" id="underlined-btn">U</button>
+                    <button class="italic text-btn control-btn" id="italic-btn">I</button>
+                    <input id="color-btn" type="color" class="control-btn color-btn"/>
+                </div>
+            </div>
+            <div class="editor-container">
+                <div class="editor" id="content" contenteditable="true" spellcheck="false">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_inner d-flex container">
+            <div class="social-media d-flex">
+                <a href=""><i class="ri-instagram-line"></i>My instagram</a>
+                <a href=""><i class="ri-github-fill"></i>My github</a>
+                <a href=""><i class="ri-twitter-fill"></i>My twitter</a>
+            </div>
+            <div class="faq d-flex">
+                <a href="">FAQ</a>
+                <a href=""><i class="ri-git-branch-line"></i>This project's github repository</a>
+            </div>
+            <div class="copyright">
+                <span>&copy; 2022 MUA | All right reserved.</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

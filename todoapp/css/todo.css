@@ -1,5 +1,6 @@
 @import "/homepage/css/variables.css";
 @import "/homepage/css/basic.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
 h1,
 h2 {
@@ -51,11 +52,7 @@ section {
   color: white;
 }
 
-.footer {
-  position: fixed !important;
-  bottom: 0;
-  width: 100%;
-}
+
 
 .todo-list {
   width: 40rem;
