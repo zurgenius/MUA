@@ -1,0 +1,93 @@
+:root {
+    /* Main backgound color */
+    --mainbcc: #000;
+    /* Secondary bcc */
+    --sbcc: #677679;
+    /* Transparent secondary bcc for cards */
+    --tsbcc: rgba(103, 118, 121, 0.377);
+    /* Color that the transparent secondary bcc for cards will turn into on hover */
+    --tsbcc-hover: rgba(94, 107, 110, 1);
+    /* Text colors */
+    /* Text color for body */
+    --btext: #b2babd;
+    /* Secondary text color (used for cards atm) */
+    --stext: #a7b0b4;
+    /* Text on hover */
+    --text-hover: #fff;
+    /* Font family */
+    --ffam: "Montserrat", sans-serif;
+    /* Font sizes */
+    /* Small */
+    --fsize-sm: 1.6rem;
+    /* Medium */
+    --fsize-md: 2.4rem;
+    /* Large for subtitles */
+    --fsize-lg: 3.5rem;
+    /* xLarge (for headers)*/
+    --fsize-xlg: 4rem;
+    /* Two margins */
+    /* Small one */
+    --m-sm: 2rem;
+    /* Large one */
+    --m-lg: 3rem;
+}
+
+/* Basic styling */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--ffam);
+    font-size: var(--fsize-sm);
+    color: var(--btext);
+    background-color: var(--mainbcc);
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--stext);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+i {
+    font-size: var(--fsize-md);
+}
+
+/* Reusable classes */
+
+.container {
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
