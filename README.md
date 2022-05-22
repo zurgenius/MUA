@@ -7,7 +7,7 @@ My app will contain in itself 5 parts:
 1. Home page
 2. Todo app
 3. Text editor
-4. Table tennis wiki (search bar and info about several famous table tennis players)
+4. A survey application where you will be able to ask me quiestion which is going to be send to DB(Firebase)
 5. Password generator
 
 Hope, you enjoy my project
