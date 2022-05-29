@@ -43,7 +43,7 @@ const weaknessCheck = () => {
         }
 }
 
-const genPass = ( length, keys) => {
+const genPass = (length, keys) => {
     let password = ''
     for (let i = 0; i<length; i++){
         let randomKey = charsUsedInPassword[keys[Math.floor(Math.random() * keys.length)]]
