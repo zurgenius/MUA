@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Connecting css -->
+    <link rel="stylesheet" href="./css/passgenerator.css">
+    <!-- Connecting js -->
+    <script defer src="./js/passgenerator.js"></script>
+    <!-- Connecting icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header" id="header">
+        <header class="header_inner d-flex container">
+            <nav class="top-header d-flex">
+                <span class="app-name">The Most Useful App</span>
+                <ul class="nav-links d-flex">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="main-container d-flex">
+        <h1 class="heading">Secure password generator</h1>
+        <div class="app-container d-flex">
+            <div class="button-group d-flex">
+                <h2>Select which characters to include in your password</h2>
+                <form action="" class="form d-flex" id="form">
+                    <input type="text" name="" class="pass-length" id="pass-length">
+                    <label for="Small-letters"><input type="checkbox" name="Small-letters" id="">abcdefg e.t.c</label>
+                    
+                    <label for="Capital letters"><input type="checkbox" name="Capital-letters" id="">ABCDEFG e.t.c</label>
+                    
+                    <label for="Numbers"><input type="checkbox" name="Numbers" id="">1234567890</label>
+                    
+                    <label for="Special-chars"><input type="checkbox" name="Special-chars" id="">!"#$%&@~^?</label>
+                </form>
+            </div>
+            <div class="end-password d-flex">
+                <div class="gen-copy-btn-container d-flex">
+                    <button class="help-btn" id="generate">Generate password</button>
+                    <button class="help-btn" id="copy">Copy to clipboard</button>
+                </div>
+                <p class="pass-field" id="gen-password">Your password will be here</p>
+                <p class="pass-field" id="weakness">Strong</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_inner d-flex container">
+            <div class="social-media d-flex">
+                <a href=""><i class="ri-instagram-line"></i>My instagram</a>
+                <a href="https://github.com/zurgenius"><i class="ri-github-fill"></i>My github</a>
+                <a href=""><i class="ri-twitter-fill"></i>My twitter</a>
+            </div>
+            <div class="faq d-flex">
+                <a href="">FAQ</a>
+                <a href="https://github.com/zurgenius/MUA"><i class="ri-git-branch-line"></i>This project's github
+                    repository</a>
+            </div>
+            <div class="copyright">
+                <span>&copy; 2022 MUA | All right reserved.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

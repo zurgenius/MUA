@@ -1,0 +1,83 @@
+@import "/homepage/css/variables.css";
+@import "/homepage/css/basic.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+.main-container {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: var(--fsize-md);
+}
+
+.heading {
+    margin: auto;
+}
+
+.app-container {
+    flex-direction: row;
+    margin: 5rem;
+    gap: 15rem;
+}
+
+.button-group {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input {
+    margin-right: 3rem;
+}
+
+.pass-length {
+    width: 50%;
+    background-color: var(--tsbcc);
+    color: white;
+    font-size: var(--fsize-md);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.pass-length:focus {
+    outline: none;
+}
+.get-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.end-password {
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.gen-copy-btn-container {
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.help-btn {
+    background-color: var(--tsbcc);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    font-size: var(--fsize-md);
+    transition: background-color 0.15s ease-in;
+}
+
+.help-btn:hover {
+    background-color: black;
+}
+
+.pass-field {
+    background-color: var(--tsbcc);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    font-size: var(--fsize-md);
+}
